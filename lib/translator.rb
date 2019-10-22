@@ -6,4 +6,6 @@ def load_library(path)
   emoticon_hash=Hash.new
   emoticon_hash[:get_emoticon]=Hash.new
   emoticon_hash[:get_meaning]=Hash.new
+  
+  emoticons.each do |english_word,
 end
